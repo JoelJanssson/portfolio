@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         'dark-navy': "#102a43",
         'gold': "#ffcc00",
-        'soft-navy-blue': "#e3eaf7",
+        'steel-blue-tint': "#d6e0f0",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
