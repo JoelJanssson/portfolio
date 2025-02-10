@@ -31,7 +31,7 @@ export default function Page() {
                         </div>
                     </div>
                     <Image
-                        src="portfolio/images/pos.png"
+                        src="/portfolio/images/pos.png"
                         alt="Image of PoS system"
                         width={2000}
                         height={2000}
