@@ -38,6 +38,84 @@ export default function Page() {
                     />
                 </div>
             </div>
+            <div className="bg-white shadow-md rounded-lg p-7 mt-5 border-solid border-2 border-gold">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+                    {/* Peoject 1 */}
+                    <div className="bg-white shadow-md rounded-lg p-6">
+                        <h1 className="text-3xl font-bold mb-4 text-center text-dark-navy">Il Forno Magico</h1>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow">
+                            <h2 className="text-l font-semibold text-dark-navy">Description</h2>
+                            <p className="text-dark-navy">This project involves building a website for a fictitious pizzeria.</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <h2 className="text-l font-semibold text-dark-navy">Technologies Used</h2>
+                            <p className="text-dark-navy">HTML, CSS, Bootstrap, JavaScript, Python, PostgreSQL, Shell</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <p className="text-dark-navy font-semibold">GitHub repository</p>
+                            <a href="https://github.com/JoelJanssson/TE4-Pizzeria" target="_blank" className="text-dark-navy hover:underline">Click me!</a>
+                        </div>
+                    </div>
+                    <Image
+                        src="/images/IlFornoMagico.png"
+                        alt="Image of PoS system"
+                        width={2000}
+                        height={2000}
+                    />
+                </div>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-7 mt-5 border-solid border-2 border-gold">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+                    {/* Peoject 1 */}
+                    <div className="bg-white shadow-md rounded-lg p-6">
+                        <h1 className="text-3xl font-bold mb-4 text-center text-dark-navy">NTB Car Rental</h1>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow">
+                            <h2 className="text-l font-semibold text-dark-navy">Description</h2>
+                            <p className="text-dark-navy">This project involves building a website for a fictitious car rental service where all information is retrieved from a database.</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <h2 className="text-l font-semibold text-dark-navy">Technologies Used</h2>
+                            <p className="text-dark-navy">Handlebars, CSS, JavaScript, Python, MySQL, Shell</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <p className="text-dark-navy font-semibold">GitHub repository</p>
+                            <a href="https://github.com/JoelJanssson/TE4-NTB-Car-rental" target="_blank" className="text-dark-navy hover:underline">Click me!</a>
+                        </div>
+                    </div>
+                    <Image
+                        src="/images/ntb-car-rental.png"
+                        alt="Image of PoS system"
+                        width={2000}
+                        height={2000}
+                    />
+                </div>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-7 mt-5 border-solid border-2 border-gold">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+                    {/* Peoject 1 */}
+                    <div className="bg-white shadow-md rounded-lg p-6">
+                        <h1 className="text-3xl font-bold mb-4 text-center text-dark-navy">Florista</h1>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow">
+                            <h2 className="text-l font-semibold text-dark-navy">Description</h2>
+                            <p className="text-dark-navy">This project involves building a website for a fictitious florist.</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <h2 className="text-l font-semibold text-dark-navy">Technologies Used</h2>
+                            <p className="text-dark-navy"> HTML, CSS, JavaScript, Python</p>
+                        </div>
+                        <div className="bg-steel-blue-tint p-4 rounded-lg shadow mt-4">
+                            <p className="text-dark-navy font-semibold">GitHub repository</p>
+                            <a href="https://github.com/JoelJanssson/TE4---Florist-Project" target="_blank" className="text-dark-navy hover:underline">Click me!</a>
+                        </div>
+                    </div>
+                    <Image
+                        src="/images/florista.png"
+                        alt="Image of PoS system"
+                        width={2000}
+                        height={2000}
+                    />
+                </div>
+            </div>
         </div>
     );
 }
