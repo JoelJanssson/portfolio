@@ -31,7 +31,7 @@ export default function Page() {
                         </div>
                     </div>
                     <Image
-                        src="/images/pos.png"
+                        src="portfolio/images/pos.png"
                         alt="Image of PoS system"
                         width={2000}
                         height={2000}
@@ -57,7 +57,7 @@ export default function Page() {
                         </div>
                     </div>
                     <Image
-                        src="/images/IlFornoMagico.png"
+                        src="/portfolio/images/IlFornoMagico.png"
                         alt="Image of PoS system"
                         width={2000}
                         height={2000}
@@ -83,7 +83,7 @@ export default function Page() {
                         </div>
                     </div>
                     <Image
-                        src="/images/ntb-car-rental.png"
+                        src="/portfolio/images/ntb-car-rental.png"
                         alt="Image of PoS system"
                         width={2000}
                         height={2000}
@@ -109,7 +109,7 @@ export default function Page() {
                         </div>
                     </div>
                     <Image
-                        src="/images/florista.png"
+                        src="/portfolio/images/florista.png"
                         alt="Image of PoS system"
                         width={2000}
                         height={2000}
